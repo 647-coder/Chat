@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>【USTIL在线聊天室】</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="USTIL" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<script type="text/javascript" src="js/chat.js"></script>
+<body onload="init();f()">
+		<div class="main">
+			<div class="main-info">
+            <div class="main-pos">
+					<span></span>
+				</div>
+				<div class="main-info1">
+                        <h3>USTIL</h3>
+                        <div id="log"></div>
+						<input type="text" id="nick" placeholder="昵称">
+						<input type="password2" id="msg" placeholder="消息" onkeypress="onkey(event)">
+						<input type="submit" onclick="send()" value="Send" >
+				</div>
+			</div>
+		</div>
+</body>
+</html>
